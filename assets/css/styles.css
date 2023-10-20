@@ -67,6 +67,12 @@ a {
 
 .header {
     padding-top: 52px;
+    background: #fff;
+    position: sticky;
+    top: -40px;
+    z-index: 2;
+    padding-bottom: 12px;
+
 }
 
 .header .body {
@@ -120,7 +126,7 @@ a {
 }
 
 .hero {
-    margin: 50px 0 79px;
+    margin: 34px 0 79px;
 }
 
 .hero .hero-body {
@@ -159,6 +165,7 @@ a {
 }
 
 .hero-body .hero-button {
+    cursor: pointer;
     margin-left: 50px;
     width: 62px;
     height: 62px;
@@ -657,14 +664,16 @@ a {
     margin-bottom: 20px;
 }
 
+.footer .row .colum:last-of-type .list_item a {
+    display: inline-block;
+    margin-right: 5px;
+}
+
 .footer .row .list_item-link {
+    display: inline-block;
     color: #535353;
     font-size: 1.6rem;
     font-weight: 400;
-}
-
-.footer .row .colum:last-child a i {
-    margin-right: 4px;
 }
 
 .footer .copyright p {
